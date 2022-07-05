@@ -1,0 +1,26 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.link{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(208, 191, 191);
+    font-weight: 200px;
+    border-radius: 50px;
+    transition: all .6s;
+}
+.link:hover{
+    background-color: rgba(83, 173, 203, 1);
+    color: #fff;
+    cursor: pointer;
+}
+.logo{
+    color: rgba(83, 173, 203, 1);
+}
+.logo:hover{
+    border-radius: 50%;
+    color: #fff;
+    transition: 300ms;
+}

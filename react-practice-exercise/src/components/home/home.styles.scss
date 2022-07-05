@@ -1,0 +1,281 @@
+.carousel-text{
+  font-weight: 700;
+
+}
+.marketing{
+  padding: 45px;
+}
+.text-effect{
+  color: #fff6a9;
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px auto 0;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  position: relative;
+  animation: animate 2s ease-in-out infinite;
+}
+@keyframes animate{
+  20%, 24%, 55%{
+      color: #111;
+      text-shadow: none;
+  }
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100%{
+      color: #fff6a9;
+      text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+}
+@media only screen and (max-width: 990px){
+  .text-effect{ font-size: 100px; }
+}
+@media only screen and (max-width: 767px){
+  .text-effect{ font-size: 80px; }
+}
+@media only screen and (max-width: 479px){
+  .text-effect{ font-size: 60px; }
+}
+@media only screen and (max-width: 359px){
+  .text-effect{ font-size: 45px; }
+}
+.download2 {
+  display: inline-block;
+  margin-right: 10px;
+  background: #339DFF;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 38px;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 170px;
+  text-align: center;
+}
+
+.download2:hover {
+  background: #fff;
+  color: #339DFF;
+  box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+.row{
+  text-align: center;
+}
+.img-circle{
+  
+  border-radius: 85px;
+}
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.half-half-image-text{
+  padding: 60px;
+  margin: 60px;
+  h1{
+    color: #363739;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 55px;
+  }
+  .content{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: 35px 0px;
+    p{
+      font-size: 22px;
+    }
+  }
+  .img{
+    min-height: 320px;
+    height: 100%;
+    border-radius: 10px;
+    background: url('https://image.made-in-china.com/44f3j00bhAQtsdRAeqL/New-Design-Mens-Polo-Shirt-100-Cotton-Customized-for-Men-Polo-Shirt-Design.jpg')no-repeat center;background-size:cover;
+  	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+
+
+// Footer
+
+.footer {
+  background-color: #1d1b1b;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #1e1f20;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #1d1f21;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #0099ff;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
